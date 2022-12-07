@@ -3,21 +3,39 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="flex justify-between p-5 max-w-7xl mx-auto">
-      <div className="hidden md:inline-flex items-center space-x-5">
-        <h3>Home</h3>
-        <h3>About</h3>
-        <h3>Contact</h3>
+    <nav className="relative mx-auto">
+      <div className="flex items-middle jmd:ustify-between md:space-x-8">
+        <div className="hidden md:flex md:space-x-6">
+          <Link
+            href="/"
+            className="mt-2 leading-s text-s text-blue-500 font-normal hover:text-gray-400"
+          >
+            Home
+          </Link>
+          <Link
+            href="/"
+            className="mt-2 leading-s text-s text-blue-500 font-normal hover:text-gray-400"
+          >
+            About
+          </Link>
+          <Link
+            href="/"
+            className="mt-2 leading-s text-s text-blue-500 font-normal hover:text-gray-400"
+          >
+            Contact
+          </Link>
+        </div>
+        <div className="mt-1 text-xl leading-xl text-blue-primary text-landie font-black ">
+          <span>Landie</span>
+        </div>
+        <Link
+          href="/"
+          className="hidden md:block mt-2 py-1 font-medium text-center text-white bg-blue-800 text-xs leading-xs w-button h-button rounded-sm hover:bg-blue-600"
+        >
+          Buy Now
+        </Link>
       </div>
-
-      <Link href="/">
-        <h1 className="font-bold text-3xl text-blue-900">Landie</h1>
-      </Link>
-
-      <div className="flex items-center text-white space-x-5">
-        <h3 className="py-1 px-4 bg-blue-900 rounded-full ">Buy Now</h3>
-      </div>
-    </header>
+    </nav>
   );
 }
 

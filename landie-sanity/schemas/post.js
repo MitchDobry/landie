@@ -2,26 +2,20 @@ export default {
   name: 'post',
   title: 'Post',
   type: 'document',
-  fields: [
+  fields: [{
+      name: 'articleMainTitle',
+      title: 'ArticleMainTitle',
+      type: 'string'
+    },
     {
-      name: 'title',
-      title: 'Title',
+      name: 'articleMainParagraph1',
+      title: 'ArticleMainParagraph1',
       type: 'string',
     },
     {
-      name: 'slug',
-      title: 'Slug',
-      type: 'slug',
-      options: {
-        source: 'title',
-        maxLength: 96,
-      },
-    },
-    {
-      name: 'author',
-      title: 'Author',
-      type: 'reference',
-      to: {type: 'author'},
+      name: 'articleMainParagraph2',
+      title: 'ArticleMainParagraph2',
+      type: 'string',
     },
     {
       name: 'mainImage',
@@ -32,20 +26,40 @@ export default {
       },
     },
     {
-      name: 'categories',
-      title: 'Categories',
-      type: 'array',
-      of: [{type: 'reference', to: {type: 'category'}}],
+      name: 'articleSmallImage1',
+      title: 'ArticleSmallImage1',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
     },
     {
-      name: 'publishedAt',
-      title: 'Published at',
-      type: 'datetime',
+      name: 'articleSmallTitle1',
+      title: 'ArticleSmallTitle1',
+      type: 'string',
     },
     {
-      name: 'body',
-      title: 'Body',
-      type: 'blockContent',
+      name: 'articleSmallParagraph1',
+      title: 'ArticleSmallParagraph1',
+      type: 'string',
+    },
+    {
+      name: 'articleSmallImage2',
+      title: 'ArticleSmallImage2',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    },
+    {
+      name: 'articleSmallTitle2',
+      title: 'ArticleSmallTitle2',
+      type: 'string',
+    },
+    {
+      name: 'articleSmallParagraph2',
+      title: 'ArticleSmallParagraph2',
+      type: 'string',
     },
   ],
 
@@ -56,7 +70,9 @@ export default {
       media: 'mainImage',
     },
     prepare(selection) {
-      const {author} = selection
+      const {
+        author
+      } = selection
       return Object.assign({}, selection, {
         subtitle: author && `by ${author}`,
       })
