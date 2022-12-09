@@ -100,6 +100,9 @@ module.exports = {
       padding: {
         '1': '4px',
         '2': '29px',
+        '121': '120px',
+        '155': '155px',
+        '114': '114px',
         'section-feat': '160px',
         'section-feat2': '165px',
       }
