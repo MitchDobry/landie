@@ -16,17 +16,16 @@ function Footer() {
           <p className="text-s leading-s font-medium  text-gray-400">
             ©2020 Yourcompany
           </p>
-          <div className="text-xl leading-xl text-blue-primary text-landie font-black">
+          <div className="text-xl leading-xl text-blue-primary text-landie font-black mr-1">
             <span>Landie</span>
           </div>
-          <div>
-            <Link
-              href="/"
-              className="py-1 font-medium text-center text-white bg-blue-800 text-xs leading-xs w-button h-button rounded-sm hover:bg-blue-600 outline outline-1 outline-gray-700"
-            >
-              Purchase Now
-            </Link>
-          </div>
+
+          <Link
+            href="/"
+            className="py-1 font-medium text-center text-white bg-blue-800 text-xs leading-xs w-button h-button rounded-sm hover:bg-blue-600 outline outline-1 outline-gray-700"
+          >
+            Purchase Now
+          </Link>
         </div>
         <div
           className="bg-gray-200"

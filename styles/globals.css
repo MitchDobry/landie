@@ -6,8 +6,25 @@
   body {
     background-image: url("../static/designer.png");
     background-repeat: no-repeat;
-    background-size: 800px;
-    background-position: 100% 0%;
+    background-size: 721px;
+    background-position: 118% 0%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  body {
+    background-size: 1178px 991px;
+    background-position: 120% 0%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  body {
+    background-position: 109% 0%;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  body {
+    background-size: 1490px 1161px;
+    background-position: 104% 0%;
   }
 }
 

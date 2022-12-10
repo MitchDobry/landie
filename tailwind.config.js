@@ -8,7 +8,7 @@ module.exports = {
   ],
   theme: {
     screens: {
-      sm: '480px',
+      sm: '425px',
       md: '768px',
       lg: '976px',
       xl: '1440px',
@@ -35,10 +35,6 @@ module.exports = {
         700: '#454E54',
       },
       'white': '#FFFFFF'
-    },
-    opacity: {
-      '0': '0',
-      '50': '0.5',
     },
     fontSize: {
       xs: '12px',
@@ -77,6 +73,7 @@ module.exports = {
         '6': '46px',
         '7': '60px',
         '8': '69px',
+        '9': '127px'
       },
       width: {
         'button': '160px',
@@ -100,12 +97,13 @@ module.exports = {
       padding: {
         '1': '4px',
         '2': '29px',
+        '14': '14px',
         '121': '120px',
         '155': '155px',
         '114': '114px',
         'section-feat': '160px',
         'section-feat2': '165px',
-      }
+      },
     }
   },
   plugins: [

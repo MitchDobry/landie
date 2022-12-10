@@ -8,7 +8,7 @@ function ThirdSection() {
         className="flex flex-col max-w-xl  text-center items-center"
         style={{ margin: "auto" }}
       >
-        <h2 className="lg:mt-60">A Price To Suit Everyone</h2>
+        <h2 className="lg:mt-9 xl:mt-60">A Price To Suit Everyone</h2>
         <p className="text-m leading-m font-normal  text-gray-600 mb-5">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus

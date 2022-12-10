@@ -4,8 +4,8 @@ import Link from "next/link";
 function Hero() {
   return (
     <section id="hero">
-      <div className="container flex flex-col-reverse md:flex-row items-center px-1 mx-auto mt-3 space-y-0 md:space-y-1 mb-8">
-        <div className="flex flex-col xl:mb-32 space-y-12 md:max-w-xl md:pl-8 md:pt-section-feat">
+      <div className="container flex flex-col-reverse md:flex-row items-center px-1 mx-auto xl:mt-3 space-y-0 md:space-y-1 lg:mb-4 xl:mb-32">
+        <div className="flex flex-col  space-y-12 md:max-w-xl md:pl-5 md:pt-7 lg:pt-section-feat lg:mb-32 xl:pl-14">
           <h1 className="mb-2">
             Introduce Your Product
             <br /> Quickly &&nbsp;Effectively
