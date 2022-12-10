@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function ThirdSection() {
   return (
-    <section id="features-3">
+    <section id="contact">
       <div
         className="flex flex-col max-w-xl  text-center items-center"
         style={{ margin: "auto" }}

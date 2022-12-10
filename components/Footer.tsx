@@ -39,19 +39,19 @@ function Footer() {
         <div className="justify-between md:flex md:space-x-8 items-center mt-2">
           <div className="justify-between mb-2 space-x-6 text-center md:text-left md:flex md:space-x-6 md:mb-0">
             <Link
-              href="/"
+              href="#hero"
               className="leading-s text-s text-blue-300 font-normal hover:text-gray-400"
             >
               Home
             </Link>
             <Link
-              href="/"
+              href="#about"
               className="leading-s text-s text-blue-300 font-normal hover:text-gray-400"
             >
               About
             </Link>
             <Link
-              href="/"
+              href="#contact"
               className="leading-s text-s text-blue-300 font-normal hover:text-gray-400"
             >
               Contact

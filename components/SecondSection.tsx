@@ -5,7 +5,7 @@ import happyNews from "../static/undraw_happy_new.svg";
 
 function SecondSection() {
   return (
-    <section id="features-2">
+    <section id="about">
       <div className="container flex flex-col mx-auto mt-12 md:space-y-0 md:flex-row mb-32">
         <Image
           width={480}
